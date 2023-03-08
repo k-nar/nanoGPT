@@ -2,8 +2,8 @@
 # good for debugging and playing on macbooks and such
 
 out_dir = 'out-shakespeare-char'
-eval_interval = 250 # keep frequent because we'll overfit
-eval_iters = 200
+eval_interval = 10 # keep frequent because we'll overfit
+eval_iters = 10
 log_interval = 1 # don't print too too often
 
 # we expect to overfit on this small dataset, so only save when val improves
@@ -14,7 +14,7 @@ wandb_project = 'gpt-mods'
 wandb_run_name = 'shakespeare-baseline'
 
 dataset = 'shakespeare_char'
-batch_size = 64
+batch_size = 128
 block_size = 256 # context of up to 256 previous characters
 
 # baby GPT model :)
