@@ -1,4 +1,8 @@
 .DS_Store
 .idea/
 __pycache__/
-.bin
+*.bin
+data/
+wandb/
+b.cmix
+b.tensor
