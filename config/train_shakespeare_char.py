@@ -11,7 +11,7 @@ always_save_checkpoint = False
 
 wandb_log = True # override via command line if you like
 wandb_project = 'gpt-mods'
-wandb_run_name = 'shakespeare-orth_pos'
+wandb_run_name = 'shakespeare-orth_pos_2d'
 
 dataset = 'shakespeare_char'
 batch_size = 128
